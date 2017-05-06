@@ -1,50 +1,109 @@
 {
-	"name": "nativescript-onesignal",
-	"version": "1.0.6",
-	"description": "A Nativescript plugin for OneSignal's Push Notifications SDK",
-	"main": "onesignal.js",
-	"typings": "index.d.ts",
-	"nativescript": {
-		"platforms": {
-			"android": "2.2.0",
-			"ios": "2.2.1"
-		}
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/roblav96/nativescript-onesignal.git"
-	},
-	"keywords": [
-		"nativescript",
-		"onesignal",
-		"ecosystem:nativescript",
-		"nativescript-android",
-		"nativescript-ios"
-	],
-	"author": {
-		"name": "Rob Laverty",
-		"email": "roblav96@gmail.com"
-	},
-	"license": {
-		"type": "MIT",
-		"url": "https://github.com/roblav96/nativescript-onesignal/blob/master/LICENSE"
-	},
-	"bugs": {
-		"url": "https://github.com/roblav96/nativescript-onesignal/issues"
-	},
-	"homepage": "https://github.com/roblav96/nativescript-onesignal",
-	"readmeFilename": "README.md",
-	"scripts": {
-		"build": "tsc",
-		"demo.ios": "npm run preparedemo && cd demo && tns run ios",
-		"demo.android": "npm run preparedemo && cd demo && tns run android",
-		"preparedemo": "npm run build && cd demo && tns plugin remove nativescript-onesignal && tns plugin add .. && tns install",
-		"setup": "npm i && cd demo && npm i && cd .. && npm run build && cd demo && tns plugin add .. && cd .."
-	},
-	"devDependencies": {
-		"tns-core-modules": "^2.2.0",
-		"tns-platform-declarations": "^2.2.0",
-		"typescript": "^1.8.10"
-	}
+  "_args": [
+    [
+      {
+        "raw": "nativescript-onesignal@^1.0.6",
+        "scope": null,
+        "escapedName": "nativescript-onesignal",
+        "name": "nativescript-onesignal",
+        "rawSpec": "^1.0.6",
+        "spec": ">=1.0.6 <2.0.0",
+        "type": "range"
+      },
+      "C:\\ns\\locallyepicapp"
+    ]
+  ],
+  "_from": "nativescript-onesignal@>=1.0.6 <2.0.0",
+  "_id": "nativescript-onesignal@1.0.6",
+  "_inCache": true,
+  "_location": "/nativescript-onesignal",
+  "_nodeVersion": "6.9.1",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/nativescript-onesignal-1.0.6.tgz_1484756955889_0.7252124976366758"
+  },
+  "_npmUser": {
+    "name": "roblav96",
+    "email": "roblav96@gmail.com"
+  },
+  "_npmVersion": "3.10.8",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "nativescript-onesignal@^1.0.6",
+    "scope": null,
+    "escapedName": "nativescript-onesignal",
+    "name": "nativescript-onesignal",
+    "rawSpec": "^1.0.6",
+    "spec": ">=1.0.6 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-onesignal/-/nativescript-onesignal-1.0.6.tgz",
+  "_shasum": "faf0e6c72149e9950115ef0cfef50eb6bd3cee4b",
+  "_shrinkwrap": null,
+  "_spec": "nativescript-onesignal@^1.0.6",
+  "_where": "C:\\ns\\locallyepicapp",
+  "author": {
+    "name": "Rob Laverty",
+    "email": "roblav96@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/roblav96/nativescript-onesignal/issues"
+  },
+  "dependencies": {},
+  "description": "A Nativescript plugin for OneSignal's Push Notifications SDK",
+  "devDependencies": {
+    "tns-core-modules": "^2.2.0",
+    "tns-platform-declarations": "^2.2.0",
+    "typescript": "^1.8.10"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "faf0e6c72149e9950115ef0cfef50eb6bd3cee4b",
+    "tarball": "https://registry.npmjs.org/nativescript-onesignal/-/nativescript-onesignal-1.0.6.tgz"
+  },
+  "gitHead": "1b5468a50144c61b1aa2591e478d68a3848df668",
+  "homepage": "https://github.com/roblav96/nativescript-onesignal",
+  "keywords": [
+    "nativescript",
+    "onesignal",
+    "ecosystem:nativescript",
+    "nativescript-android",
+    "nativescript-ios"
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/roblav96/nativescript-onesignal/blob/master/LICENSE"
+  },
+  "main": "onesignal.js",
+  "maintainers": [
+    {
+      "name": "roblav96",
+      "email": "roblav96@gmail.com"
+    }
+  ],
+  "name": "nativescript-onesignal",
+  "nativescript": {
+    "platforms": {
+      "android": "2.2.0",
+      "ios": "2.2.1"
+    }
+  },
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roblav96/nativescript-onesignal.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "demo.android": "npm run preparedemo && cd demo && tns run android",
+    "demo.ios": "npm run preparedemo && cd demo && tns run ios",
+    "preparedemo": "npm run build && cd demo && tns plugin remove nativescript-onesignal && tns plugin add .. && tns install",
+    "setup": "npm i && cd demo && npm i && cd .. && npm run build && cd demo && tns plugin add .. && cd .."
+  },
+  "typings": "index.d.ts",
+  "version": "1.0.6"
 }
-
